@@ -1,20 +1,31 @@
 body {
-    display: flex;
     background-image: url("image/bgimg.png");
-    background-repeat: no-repeat;
     background-size: cover;
   }
 .container {
     margin-top: 10px;
-    width: 1531px;
-    height: 40px;
+    margin-left: 10px;
+    width: 746px;
+    height: 30px;
     border: 1px solid black;
+    padding: 10px;
   }
 .button {
-    background-color:red;
+    color:red;
+    background-color: transparent;
     border: transparent;
     width: 134px;
     height: 27px;
     font-size: 16px;
-    margin-left: 100px;
+    margin-left: 0px;
+    font-size: 20px;
   }
+.button:hover {
+    color: black; 
+  }
+.form{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+
+}
