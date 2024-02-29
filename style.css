@@ -1,6 +1,20 @@
 body {
+    display: flex;
     background-image: url("image/bgimg.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+.container {
+    margin-top: 10px;
+    width: 1531px;
+    height: 40px;
+    border: 1px solid black;
+  }
+.button {
+    background-color:red;
+    border: transparent;
+    width: 134px;
+    height: 27px;
+    font-size: 16px;
+    margin-left: 100px;
+  }
