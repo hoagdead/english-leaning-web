@@ -7,10 +7,10 @@ body {
     height: 20px;
     background-color: white;
     padding: 8px;
-    border-radius:30px ;
-    margin-bottom: auto;
-    margin-top: auto;
+    align-items: flex-start;
     display:flex;
+    position: fixed;
+    z-index: 999;
   }
 .button {
     color:red;
