@@ -2,34 +2,46 @@ body {
     background-image: url("image/bg.png");
     background-size: cover;
   }
-.headbar{
-  width: 100%;
-  height: 50px;
-}
 .container {
-    
-    margin-left: 10px;
-    width: 746px;
-    height: 30px;
-    border: 1px solid black;
-    padding: 10px;
+    width: 1500px;
+    height: 20px;
+    background-color: white;
+    padding: 8px;
+    border-radius:30px ;
+    margin-bottom: auto;
+    margin-top: auto;
+    display:flex;
   }
 .button {
     color:red;
     background-color: transparent;
     border: transparent;
     width: 134px;
-    height: 27px;
-    font-size: 16px;
-    margin-left: 0px;
+    height: 20px;
     font-size: 20px;
   }
 .button:hover {
     color: black; 
   }
-.form{
-    display: flex;
-    margin-top: 100px;
-    margin-left: 100px;
 
+.in {
+  margin-top: 250px;
+  margin-left: 250px;
+  width: 900px;
+  border-radius:310px;
+  height: 50px;
+
+}
+.bu {
+  background-color: #0C8CE9;
+  height: 55px;
+  border-radius: 30px;
+  width: 55px;
+  max-width: 250px;
+
+}
+input[type=text] {
+  font-size: 20px;
+  padding: 12px 20px;
+  box-sizing: border-box;
 }
