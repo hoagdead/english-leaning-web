@@ -11,14 +11,13 @@
   display: flex;
   background: #fff;
   border-radius: 9px;
-  
 }
 nav{
   margin-top: auto;
   height: auto;
   padding: 9px;
-  width: 50%;
   margin-left: 30px;
+ 
 }
 nav ul li{
   display: inline-block;
@@ -42,8 +41,31 @@ nav ul li:after{
 nav ul li:hover::after{
   width:100%;
 }
+
+.but{
+  margin-top: 5px;
+  display: inline-block;
+  height: 36px;
+  background: #bae1c9; 
+  margin-left: auto;
+  margin-right: 10px;
+  border-radius:100px ;
+}
+.but button{
+  padding: 5px 10px;
+  background: none; 
+  border: none;
+  cursor: pointer;
+  color: #000000; /* Set text color */
+  font-size: 17px;
+}
+.but button[type="button1"]{
+  background: #4D59FB;
+  border-radius: 100px;
+}
+
 body{
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
 }
 
 .search input{
@@ -63,8 +85,9 @@ body{
   color: #B8B8B8;
 }
 .searching{
-  align-content: center;
-  margin-left: 300px;
+  display: absolute;
+  margin-left: auto;
+  margin-right: auto;
   width: 760px;
   border-radius: 0px;
   background: #fff;
@@ -76,13 +99,13 @@ body{
 }
 
 .search input[type="text"] {
-  padding-right: 30px; /* Adjust according to the size of the icon */
+  padding-right: 30px;
 }
 .search i {
   position: absolute;
   top: 50%;
-  right: 100px; /* Adjust according to the position you want */
+  right: 100px; 
   transform: translateY(-50%);
-  color: #555; /* Adjust the color of the icon */
-  pointer-events: none; /* To make sure the icon doesn't interfere with input */
+  color: #555;
+  pointer-events: none;
 }
