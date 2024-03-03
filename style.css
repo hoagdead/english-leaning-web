@@ -43,5 +43,46 @@ nav ul li:hover::after{
   width:100%;
 }
 body{
-  background: navy;
+  background: rgb(255, 255, 255);
+}
+
+.search input{
+  height: 66px;
+  width: 90%;
+  outline: none;
+  font-size: 25px;
+  border-radius: 100px;
+  padding: 0 42px;
+  border: 1px solid #999;
+}
+.search input:focus{
+  padding: 0 41px;
+  border: 2px solid #4D59FB;
+}
+.search input::placeholder{
+  color: #B8B8B8;
+}
+.searching{
+  align-content: center;
+  margin-left: 300px;
+  width: 760px;
+  border-radius: 0px;
+  background: #fff;
+  position: flex;
+  margin-top: 230px;
+}
+.search {
+  position: relative;
+}
+
+.search input[type="text"] {
+  padding-right: 30px; /* Adjust according to the size of the icon */
+}
+.search i {
+  position: absolute;
+  top: 50%;
+  right: 100px; /* Adjust according to the position you want */
+  transform: translateY(-50%);
+  color: #555; /* Adjust the color of the icon */
+  pointer-events: none; /* To make sure the icon doesn't interfere with input */
 }
