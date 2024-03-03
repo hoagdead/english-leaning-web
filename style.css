@@ -66,6 +66,10 @@ nav ul li:hover::after{
   border-radius: 100px;
   display: absolute;
 }
+.but a{
+  color:black;
+  text-decoration: none;
+}
 
 
 body{
