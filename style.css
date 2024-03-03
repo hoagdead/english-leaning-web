@@ -156,21 +156,32 @@ nav ul li:hover::after{
   grid-column-start: 1; /* Start at the first column */
   grid-column-end: span 1; /* Span only one column */
 }
-.card{
+.text-input{
   width:340px ;
   height:280px ;
   margin-top: 120px;
   background-color: whitesmoke;
   border-radius: 30px;
 }
-.card input{
-  margin-top: 9px;
-  margin-left: 20px;
-  margin-right: auto;
-  border-radius: 30px;
-  width: 90%;
-  height: 114px;
+
+.text-input .to-text{
+  border-radius: 3px;
+  border-bottom: 1px solid #ccc;
 }
-
-
+.text-input .from-text{
+  border-radius : 3px;
+  border-top: 1px solid #ccc;
+}
   
+.text-input textarea{
+  margin-top: 10px;
+  margin-left: 15px;
+  width: 90%;
+  resize: none;
+  background: none;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+.text-input textarea::placeholder{
+  color: #b7b6b6;
+}
