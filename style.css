@@ -5,6 +5,10 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+body{
+  background: #282A35;
+}
+/* navigate*/
 .container{
   width: 100%;
   height: 50px;
@@ -41,7 +45,6 @@ nav ul li:after{
 nav ul li:hover::after{
   width:100%;
 }
-
 .but{
   margin-top: 5px;
   display: inline-block;
@@ -72,10 +75,9 @@ nav ul li:hover::after{
 }
 
 
-body{
-  background: rgb(255, 255, 255);
-}
 
+
+/* searching*/
 .search input{
   height: 66px;
   width: 90%;
@@ -98,7 +100,7 @@ body{
   margin-right: auto;
   width: 760px;
   border-radius: 0px;
-  background: #fff;
+  background: transparent;
   position: flex;
   margin-top: 230px;
 }
@@ -111,9 +113,64 @@ body{
 }
 .search i {
   position: absolute;
-  top: 50%;
+  margin-top: 23px;
+  margin-bottom: auto;
   right: 100px; 
-  transform: translateY(-50%);
-  color: #555;
-  pointer-events: none;
+  color: #000000;
+  font-size: 25px;
 }
+.searching h1 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.searching h3{
+  color: #f9f5ff78;
+  margin-left: 20px;
+}
+
+
+/* =======mini translator========*/
+.translator{
+  margin-top: 120px;
+  width: auto;
+  height: 500px;
+  background-color: #4D59FB;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(356px, 1fr));
+  
+}
+.translator h1{
+  font-size: 35px;
+  margin-top: 100px !important ;
+}
+.translator p{
+  margin-left: -70px;
+}
+.mv{
+  padding: 3%;
+  width: 356px;
+  height: 181px;
+  margin-left: 350px;
+  margin-right: auto;
+  grid-column-start: 1; /* Start at the first column */
+  grid-column-end: span 1; /* Span only one column */
+}
+.card{
+  width:340px ;
+  height:280px ;
+  margin-top: 120px;
+  background-color: whitesmoke;
+  border-radius: 30px;
+}
+.card input{
+  margin-top: 9px;
+  margin-left: 20px;
+  margin-right: auto;
+  border-radius: 30px;
+  width: 90%;
+  height: 114px;
+}
+
+
+  
