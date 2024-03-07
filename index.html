@@ -39,17 +39,20 @@
       <h1>Translator</h1>
       <p> you can try to translate something in there</p>
     </div>
-  <div class="text-input" bis_skin_checked="1">
-    <textarea spellcheck="false" class="from-text" placeholder="enter text"></textarea>
-    <select></select>
-    <li class="exchange"><i class="fas fa-exchange-alt"></i></li>
-    <select name="" id=""> </select>
-    <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
-    <div>
-      <button>Translate Text</button>
+    <div class="text-input">
+      <textarea spellcheck="false" class="from-text" placeholder="Enter text"></textarea>
+      <div class="middle-section">
+        <select class="left"></select>
+        <li><i class="fas fa-exchange-alt"></i></li>
+        <select class="right"></select>
+      </div>
+      <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translation"></textarea>
+      <div class="bottom-section">
+        <button class="trans">Translate Text</button>
+      </div>
     </div>
-  </div>
   
-  <script src="js/countries.js"></script>
+  <script src="script.js"></script>
+  <script src="countries.js"></script>
 </body>
 </html>
