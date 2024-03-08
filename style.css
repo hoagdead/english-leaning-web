@@ -130,37 +130,47 @@ body{
 
 /* ================================================== mini translator ================================================================*/
 .translator{
-  width: 100%;
+  width: auto;
   height: 500px;
   background-color: #4D59FB;
   display: grid;
-  grid-template-columns: auto 1fr auto; 
-
-  
+  grid-template-columns: 664px 1fr 0fr; 
+  justify-items: center;
+  align-items: center;
+}
+.mv{
+    width: 356px;
+    height: 181px;
+    margin-left: 60%;
+    
+}
+.mv button{
+  width: 160px;
+  height: 45px;
+  border: none;
+  border-radius: 100px;
+  background: #00000030;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 .translator h1{
   font-size: 35px;
-  margin-top: 170px !important ;
+
 }
 .translator p{
   margin-left: -50px;
 }
-.mv{
-  padding: 3%;
-  width: 356px;
-  height: 181px;
-  margin-left: 350px;
-  margin-right: auto;
-  grid-column-start: 1; 
-  grid-column-end: span 1; 
-}
+
 .text-input{
   width:340px ;
   height:300px ;
-  margin-top: 100px;
   background-color: rgb(255, 255, 255);
   border-radius: 30px;
   display: grid;
+  margin-right: 40%;
+
 }
 
 .text-input .to-text{
@@ -193,7 +203,7 @@ body{
   margin-right: 20px;
   background-color: transparent;
   border-color: #b6b0b0;
-
+  cursor: pointer;
 }
 
 .middle-section{
@@ -248,6 +258,7 @@ body{
   border-radius: 40px;
   border-color: transparent;
   background-color: rgba(136, 0, 255, 0.418);
+  cursor: pointer;
 }
 
 .community button:hover{
@@ -267,5 +278,4 @@ body{
   background-color: #3951da;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
 }
