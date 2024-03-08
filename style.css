@@ -253,3 +253,19 @@ body{
 .community button:hover{
   background-color: rgba(136, 0, 255, 0.618);
 }
+
+/* ================================================== FOOTER ================================================================*/
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  display: absolute;
+}
+.checked{
+  width: 617px;
+  height: 30px;
+  background-color: #3951da;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
