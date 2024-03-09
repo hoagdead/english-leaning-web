@@ -176,11 +176,11 @@ body{
 .text-input .to-text{
   margin-top: -10px;
   border-radius: 3px;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #000000;
 }
 .text-input .from-text{
   border-radius : 3px;
-  border-top: 1px solid #ccc;
+  border: 1px solid #000000;
 }
   
 .text-input textarea{
@@ -257,6 +257,7 @@ body{
   font-weight: 600;
   border-radius: 40px;
   border-color: transparent;
+  color:white;
   background-color: rgba(136, 0, 255, 0.418);
   cursor: pointer;
 }
@@ -268,14 +269,50 @@ body{
 /* ================================================== FOOTER ================================================================*/
 .footer{
   width: 100%;
-  height: 300px;
-  background-color: #ffffff;
-  display: absolute;
+  height: 350px;
+  background-color: #1b1111;
+  display: grid;
+  grid-template-rows: 62px 3fr 80px; 
 }
 .checked{
+  margin-top: 30px;
   width: 617px;
   height: 30px;
-  background-color: #3951da;
+  background-color: #ffffff00;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 30px;
+}
+.checked a{
+  padding: 18px;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+.text{
+  color:white ;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+}
+.text .l1{
+  margin-left: 20px;
+}
+.text .l2{
+  margin-left: 0px;
+}
+.text h3{
+  margin-top: 40px;
+  margin-left: -10px;
+}
+.some a{  
+  font-size: 40px;
+  padding: 20px;
+  color:#ffffff;
+}
+.some{
+  width: 350px;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
