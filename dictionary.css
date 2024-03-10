@@ -126,3 +126,66 @@ body{
   color: #f9f5ff78;
   margin-left: 20px;
 }
+
+/* ================================================== FOOTER ================================================================*/
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #1b1111;
+    display: grid;
+    grid-template-rows: 62px 3fr 80px; 
+  }
+  .checked{
+    margin-top: 30px;
+    width: 617px;
+    height: 30px;
+    background-color: #ffffff00;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 30px;
+  }
+  .checked a{
+    padding: 18px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  .text{
+    color:white ;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+  }
+  .text .l1{
+    margin-left: 20px;
+  }
+  .text .l2{
+    margin-left: 0px;
+  }
+  .text h3{
+    margin-top: 40px;
+    margin-left: -10px;
+  }
+  .some a{  
+    font-size: 40px;
+    padding: 20px;
+    color:#ffffff;
+  }
+  .some{
+    width: 350px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* ================================================== dictionary ================================================================*/
+
+.dictionary{
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    height: auto;
+    width: 75%;
+    border-radius: 10px;
+}
