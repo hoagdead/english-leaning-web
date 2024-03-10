@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #282A35;
+}
+/* ================================================== nav bar ================================================================*/
+.container{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  background: #fff;
+
+}
+.container nav{
+  margin-top: auto;
+  height: auto;
+  padding: 4px;
+  margin-left: 30px;
+}
+.container nav ul li{
+  display: inline-block;
+  list-style: none;
+  font-size: 20px;
+  padding:0 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+}
+.container nav ul li:after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #2192ff;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  transition: 0.5s;
+}
+.container nav ul li:hover::after{
+  width:100%;
+}
+.but{
+  margin-top: 5px;
+  width: 73px;
+  height: 28px;
+  background: #00000030; 
+  margin-left: auto;
+  margin-right: 10px;
+  border-radius:100px ;
+  display: absolute;
+}
+.but button{
+  font-weight: 500;
+  padding: 5px;
+  margin-top: -6px;
+  background: none; 
+  border: none;
+  cursor: pointer;
+  color: #000000; 
+  font-size: 16px;
+  display: absolute;
+}
+.but a{
+  color:black;
+  text-decoration: none;
+}
+
+
+
+
+/* ================================================== searching ================================================================*/
+.searching{
+  display: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  width: 760px;
+  height: 300px;
+  border-radius: 0px;
+  background: transparent;
+  position: flex;
+  margin-top: 170px;
+}
+.search input{
+  height: 66px;
+  width: 90%;
+  outline: none;
+  font-size: 25px;
+  border-radius: 100px;
+  padding: 0 42px;
+  border: 1px solid #999;
+}
+.search input:focus{
+  padding: 0 41px;
+  border: 2px solid #4D59FB;
+}
+.search input::placeholder{
+  color: #B8B8B8;
+}
+
+.search {
+  position: relative;
+}
+
+.search input[type="text"] {
+  padding-right: 30px;
+}
+.search i {
+  position: absolute;
+  margin-top: 23px;
+  margin-bottom: auto;
+  right: 100px; 
+  color: #000000;
+  font-size: 25px;
+}
+.searching h1 {
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 20px;
+}
+.searching h3{
+  color: #f9f5ff78;
+  margin-left: 20px;
+}
