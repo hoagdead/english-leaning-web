@@ -1,0 +1,103 @@
+body{
+    background: #fefeff;
+    display: absolute;
+}
+
+.container{
+    width: 110%;
+    height: 36px;
+    display: flex;
+    background: #cacaca;
+    margin-top: -10px;
+    margin-left: -10px;
+  
+  }
+.container nav{
+    margin-top: auto;
+    height: auto;
+    padding: 4px;
+    margin-left: 30px;
+    margin-top: -14px;
+}
+.container nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+    padding:0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+.container nav ul li:after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #2192ff;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.container nav ul li:hover::after{
+    width:100%;
+}
+.but{
+    margin-top: 5px;
+    width: 73px;
+    height: 28px;
+    background: #00000030; 
+    margin-left: auto;
+    margin-right: 10px;
+    border-radius:100px ;
+    display: absolute;
+}
+.but button{
+    font-weight: 500;
+    padding: 5px;
+    margin-top: -1px;
+    margin-left: -140px;
+    background: none; 
+    border: none;
+    cursor: pointer;
+    color: #000000; 
+    font-size: 16px;
+    display: absolute;
+}
+.but a{
+
+    color:black;
+    text-decoration: none;
+}
+.translator{
+    width: 1000px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 1fr 0fr;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+.translator textarea{
+    resize: none;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+.translator .from-text{
+    width: auto;
+    height: 100%;
+}
+.translator .to-text{
+    width: auto;
+    height: 100%;
+}
+.translator select{
+    width: 80%;
+    margin-left: 3px;
+    margin-right: auto;
+    border: transparent;
+}
+
