@@ -196,7 +196,7 @@ body{
   grid-template-rows: auto auto;
 
 }
-.head .word{
+.word-head .word{
   font-size: 40px;
   color: #000000;
   margin-left: 20px;
@@ -210,4 +210,36 @@ body{
   margin-top: -10px;
   margin-left: 20px;
   font-size: 20px;
+}
+.head .type{
+  margin-left: 20px;
+}
+.verb .head,
+.adj .head ,
+.noun .head {
+  display: grid;
+  font-size: 23px;
+  grid-template-columns: auto 1fr auto;
+  background-color: rgba(241, 241, 11, 0.299);
+  border: #000000;
+}
+
+.verb .head p,
+.adj .head p,
+.noun .head p{
+  margin-left:7px ;
+  font-size: 23px;
+}
+
+.verb .body,
+.adj  .body,
+.noun .body{
+  display: grid;
+  grid-template-rows: auto;
+}
+
+.verb .mean,
+.adj .mean,
+.noun .mean{
+  font-size: 23px;
 }
