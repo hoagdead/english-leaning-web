@@ -224,6 +224,7 @@ body{
   border: #000000;
 }
 
+
 .verb .head p,
 .adj .head p,
 .noun .head p{
@@ -231,13 +232,29 @@ body{
   font-size: 23px;
 }
 
+.verb .head span,
+.adj .head span,
+.noun .head span{
+  margin-left:10px ;
+  font-size: 23px;
+}
+
+
 .verb .body,
 .adj  .body,
 .noun .body{
   display: grid;
   grid-template-rows: auto;
+  margin-left:10px;
+  padding: 20px;
+
 }
 
+.verb .body span,
+.adj  .body span,
+.noun .body span{
+  padding: 5px;
+}
 .verb .mean,
 .adj .mean,
 .noun .mean{
